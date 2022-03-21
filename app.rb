@@ -16,3 +16,9 @@ end
 get '/sinatra' do
   "We love sinatra"
 end
+
+get '/cat' do
+  "<div style= 'border: 20px dashed red'>
+  <img src='https://i.imgur.com/jFaSxym.png' />
+  </div>"
+end
